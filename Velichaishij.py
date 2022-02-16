@@ -7,7 +7,7 @@ import random
 
 import requests
 
-vk_session = vk_api.VkApi(token='8d109801fdf30da47bb175ffdb331b3792ba6ab4ef368a3cece5b717546602bf41abbc60dcb42935acfa6')
+vk_session = vk_api.VkApi(token='кнешн')
 longpoll = VkBotLongPoll(vk_session, 210555883)
 
 tyte = time.time()
