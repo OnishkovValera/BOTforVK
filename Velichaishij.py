@@ -256,6 +256,6 @@ for event in longpoll.listen():
         print("\n Переподключение к серверам ВК \n")
         time.sleep(3)
         vk_session = vk_api.VkApi(
-            token='8d109801fdf30da47bb175ffdb331b3792ba6ab4ef368a3cece5b717546602bf41abbc60dcb42935acfa6')
+            token='да')
         longpoll = VkBotLongPoll(vk_session, 210555883)
         print(time.ctime(time.time()))
